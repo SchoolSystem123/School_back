@@ -1196,7 +1196,7 @@ app.use(Global);
 // Global error handling middlware
 
 // connect to data base
-mongoose.connect(process.env.URL)
+mongoose.connect(process.env.DATA_BASE_LINK)
 .then(() => {
     console.log("###### Conected ######")
 })
